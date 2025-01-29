@@ -1,0 +1,30 @@
+2025-01-30T00:41:27.744+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] ductionReadyFeaturesDemoApplicationTests : Starting SpringBootProductionReadyFeaturesDemoApplicationTests using Java 23 with PID 60936 (started by vishalsaxena in /Users/vishalsaxena/Desktop/Vishal/springBootTutorialsProject/springBootProductionReadyFeaturesDemo)
+2025-01-30T00:41:27.745+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] ductionReadyFeaturesDemoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-01-30T00:41:28.084+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-30T00:41:28.117+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2025-01-30T00:41:28.369+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-30T00:41:28.402+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-30T00:41:28.429+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-30T00:41:28.467+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2025-01-30T00:41:28.552+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-30T00:41:28.566+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-30T00:41:28.639+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40cf6254
+2025-01-30T00:41:28.640+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-30T00:41:28.682+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.15
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-30T00:41:28.821+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.codingshuttle.springboot.production.ready.features.springBootProductionReadyFeaturesDemo.entities.PostEntity
+2025-01-30T00:41:29.279+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-30T00:41:29.343+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T00:41:29.660+05:30  WARN 60936 --- [springBootProductionReadyFeaturesDemo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-30T00:41:29.832+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] ductionReadyFeaturesDemoApplicationTests : Started SpringBootProductionReadyFeaturesDemoApplicationTests in 2.234 seconds (process running for 2.872)
+2025-01-30T00:41:30.153+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [main] c.c.s.p.r.f.s.c.impl.DeptClientImpl      : get all depts
+2025-01-30T00:41:30.235+05:30 DEBUG 60936 --- [springBootProductionReadyFeaturesDemo] [main] c.c.s.p.r.f.s.c.impl.DeptClientImpl      : dept succesfully retrieved
+2025-01-30T00:41:30.244+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-30T00:41:30.245+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-30T00:41:30.247+05:30  INFO 60936 --- [springBootProductionReadyFeaturesDemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
